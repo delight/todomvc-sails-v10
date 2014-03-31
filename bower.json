@@ -1,0 +1,28 @@
+{
+  "name": "todomvc",
+  "version": "0.0.0",
+  "authors": [
+    "Konstantinos Kostarellis <2K.devel@gmail.com>"
+  ],
+  "description": "TodoMVC in sails with angular, socket.io and mongodb",
+  "keywords": [
+    "TodoMVC",
+    "sails",
+    "angular"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": ">=1.2.*",
+    "angular-resource": ">=1.2.*",
+    "angular-route": ">=1.2.*",
+    "todomvc-common": "~0.1.9",
+    "angular-socket-io": "~0.4.1"
+  }
+}
